@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>KEVIN WIFI ENTERTAINMENT</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #000;
+    color: white;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background: rgba(0,0,0,0.8);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.logo {
+    color: red;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-links span {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+/* HERO SECTION */
+.hero {
+    height: 80vh;
+    background: url('https://images.unsplash.com/photo-1606813907291-d86efa9b94db') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.hero-content {
+    max-width: 500px;
+}
+
+.hero h1 {
+    font-size: 50px;
+}
+
+.hero p {
+    color: #ccc;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.play {
+    background: white;
+    color: black;
+}
+
+.list {
+    background: rgba(255,255,255,0.3);
+    color: white;
+}
+
+/* MOVIE ROWS */
+.section {
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    overflow-x: auto;
+}
+
+.card {
+    min-width: 150px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<div class="navbar">
+    <div class="logo">KEVIN WIFI</div>
+    <div class="nav-links">
+        <span>Home</span>
+        <span>Movies</span>
+        <span>Series</span>
+        <span>Live TV</span>
+    </div>
+</div>
+
+<!-- HERO -->
+<div class="hero">
+    <div class="hero-content">
+        <h1>WELCOME</h1>
+        <p>Unlimited Movies, Series & Live TV on KEVIN WIFI</p>
+        <button class="btn play">▶ Play</button>
+        <button class="btn list">+ My List</button>
+    </div>
+</div>
+
+<!-- MOVIE ROW -->
+<div class="section">
+    <h2>🔥 Popular</h2>
+    <div class="row">
+        <div class="card"><img src="https://via.placeholder.com/150x220"></div>
+        <div class="card"><img src="https://via.placeholder.com/150x220"></div>
+        <div class="card"><img src="https://via.placeholder.com/150x220"></div>
+        <div class="card"><img src="https://via.placeholder.com/150x220"></div>
+    </div>
+</div>
+
+<div class="section">
+    <h2>🎬 Action</h2>
+    <div class="row">
+        <div class="card"><img src="https://via.placeholder.com/150x220"></div>
+        <div class="card"><img src="https://via.placeholder.com/150x220"></div>
+        <div class="card"><img src="https://via.placeholder.com/150x220"></div>
+    </div>
+</div>
+
+<div class="section">
+    <h2>❤️ Love Stories</h2>
+    <div class="row">
+        <div class="card"><img src="https://via.placeholder.com/150x220"></div>
+        <div class="card"><img src="https://via.placeholder.com/150x220"></div>
+        <div class="card"><img src="https://via.placeholder.com/150x220"></div>
+    </div>
+</div>
+
+<div class="section">
+    <h2>👻 Horror</h2>
+    <div class="row">
+        <div class="card"><img src="https://via.placeholder.com/150x220"></div>
+        <div class="card"><img src="https://via.placeholder.com/150x220"></div>
+        <div class="card"><img src="https://via.placeholder.com/150x220"></div>
+    </div>
+</div>
+
+</body>
+</html>
